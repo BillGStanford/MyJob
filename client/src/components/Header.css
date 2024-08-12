@@ -1,0 +1,68 @@
+.header {
+  background-color: #ffffff; /* White background for a clean look */
+  color: #333333; /* Dark text color for readability */
+  padding: 10px 0;
+  box-shadow: 0 2px 4px rgba(75, 75, 75, 0.1); /* Subtle shadow for a slight 3D effect */
+  position: fixed; /* Keep the header fixed at the top */
+  width: 100%;
+  z-index: 1000;
+}
+
+.header-container {
+  width: 90%; /* Adjusted width for better alignment */
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.logo a {
+  color: #333333; /* Dark color for the logo text */
+  text-decoration: none;
+}
+
+.nav {
+  display: flex;
+  align-items: center; /* Align items vertically in the center */
+  box-shadow: none;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 30px; /* Space between nav items */
+  margin: 0;
+}
+
+.nav-item a {
+  color: #000000; /* Dark color for the navigation links */
+  text-decoration: none;
+  font-size: 0.975rem; /* Slightly smaller font size */
+  font-weight: 500;
+}
+
+.nav-item a:hover {
+  text-decoration: underline; /* Underline effect on hover */
+}
+
+.join-button {
+  background-color: #ffffff; /* White background for the button */
+  border: 2px solid #1dbf73; /* Green border for the button */
+  color: #1dbf73; /* Green text color */
+  padding: 5px 15px;
+  border-radius: 4px; /* Slightly rounded corners */
+  font-size: 0.875rem; /* Slightly smaller font size */
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effect */
+}
+
+.join-button:hover {
+  background-color: #1dbf73; /* Green background on hover */
+  color: #ffffff; /* White text color on hover */
+}
